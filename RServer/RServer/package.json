@@ -1,0 +1,23 @@
+{
+  "name": "rserver",
+  "version": "0.0.0",
+  "description": "RServer",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1"
+  }
+}

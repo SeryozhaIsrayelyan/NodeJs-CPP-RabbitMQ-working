@@ -1,0 +1,2 @@
+C:\Users\Администратор\source\repos\RServer\RServer\obj\Debug\RServer.njsproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\RServer\RServer\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,3 @@
+C:\Users\Администратор\source\repos\RClient\RClient\obj\Release\RClient.njsproj.AssemblyReference.cache
+C:\Users\Администратор\source\repos\RClient\RClient\obj\Release\RClient.njsproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\RClient\RClient\bin\Microsoft.NodejsTools.WebRole.dll
