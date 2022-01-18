@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SimpleAMQPClient">
+      <UniqueIdentifier>{b7014468-674c-453f-b4b7-f23bbdd00d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimpleAMQPClient">
+      <UniqueIdentifier>{3b76a0c3-ade8-4c7e-bb07-2aef1909c6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\amqp">
+      <UniqueIdentifier>{e35a3084-921a-4751-a701-f44ba33ac1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\amqp\rabbitmq-c">
+      <UniqueIdentifier>{4c1a0740-add6-47e8-a9d7-32e5e1e58b85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSubscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AmqpException.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="AmqpLibraryException.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="AmqpResponseLibraryException.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMessage.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelImpl.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Envelope.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReturnedException.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="TableImpl.cpp">
+      <Filter>Source Files\SimpleAMQPClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleAmqpClient\AmqpException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\AmqpLibraryException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\AmqpResponseLibraryException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\BadUriException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\BasicMessage.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Bytes.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Channel.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\ChannelImpl.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\ConnectionClosedException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\ConsumerCancelledException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\ConsumerTagNotFoundException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Envelope.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\MessageRejectedException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\MessageReturnedException.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\SimpleAmqpClient.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Table.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\TableImpl.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Util.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAmqpClient\Version.h">
+      <Filter>Header Files\SimpleAMQPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSubscriber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\amqp.h">
+      <Filter>Header Files\amqp</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\amqp_framing.h">
+      <Filter>Header Files\amqp</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\amqp_ssl_socket.h">
+      <Filter>Header Files\amqp</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\amqp_tcp_socket.h">
+      <Filter>Header Files\amqp</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\rabbitmq-c\amqp.h">
+      <Filter>Header Files\amqp\rabbitmq-c</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\rabbitmq-c\framing.h">
+      <Filter>Header Files\amqp\rabbitmq-c</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\rabbitmq-c\ssl_socket.h">
+      <Filter>Header Files\amqp\rabbitmq-c</Filter>
+    </ClInclude>
+    <ClInclude Include="amqp\rabbitmq-c\tcp_socket.h">
+      <Filter>Header Files\amqp\rabbitmq-c</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

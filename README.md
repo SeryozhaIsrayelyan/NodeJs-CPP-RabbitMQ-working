@@ -17,7 +17,7 @@ For server-side application I used built-in module [path](https://nodejs.org/api
 Server is creating separate socket on port 3000 with express and starting to listen incoming requests and get them by express + socket-io. After that it would send it by amqp connection to RabbitMQ message broker queue entitle "Rqueue".
 
 ### Logger (Third App)
-For logger application I used [RabbitMQ-c client library](https://github.com/alanxz/rabbitmq-c), [amqpcpp](https://github.com/akalend/amqpcpp) library and [spdlog](https://github.com/gabime/spdlog) library for message logging.
+For logger application I used [RabbitMQ-c client library](https://github.com/alanxz/rabbitmq-c), [SimpleAmqpClient](https://github.com/alanxz/SimpleAmqpClient) library and [spdlog](https://github.com/gabime/spdlog) library for message logging.
 
 It should take message from RabbitMQ "Rqueue" queue and log it.
 
@@ -26,3 +26,5 @@ It should take message from RabbitMQ "Rqueue" queue and log it.
 ## Problems
 
 RabbitMQ did not want to work on my own computer (constantly giving an error that another application is running on the same port 25672. The problem is that this application is it. Even when killing this process and starting a new one, it still gives this error. In the end, nothing works). On the office computer (on which I can't do this project often for some logical reasons) everything works great.
+
+I was unable to build rabbitmq-c client in windows. There's no file export.h in this project.

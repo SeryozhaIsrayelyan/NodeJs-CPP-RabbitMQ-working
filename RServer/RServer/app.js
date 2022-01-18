@@ -1,15 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
-const path = require("path");
 const app = express();
 app.set("port", process.env.PORT || 3000);
 let http = require("http").Server(app);
 let io = require("socket.io")(http);
 const amqp = require('amqplib/callback_api');
-app.get("/", (req, res) => {
-    res.sendFile(path.resolve("./client/index.html"));
-});
 io.on("connection", function (socket) {
     socket.on("message", function (message) {
         console.log(message);

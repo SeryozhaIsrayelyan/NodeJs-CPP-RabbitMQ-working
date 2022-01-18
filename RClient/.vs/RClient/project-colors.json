@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9cb3dd2-e1d9-489e-a0bc-634e19f0f0a8": {
+      "ProjectGuid": "c9cb3dd2-e1d9-489e-a0bc-634e19f0f0a8",
+      "DisplayName": "RClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
